@@ -1,10 +1,10 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Yellow",
+    "theme_name": "Shopify Theme Boilerplate",
     "theme_version": "1.0.0",
-    "theme_author": "CodeSnippet Studio",
-    "theme_documentation_url": "https://github.com/CodeSnippet-Studio/yellow",
-    "theme_support_url": "https://github.com/CodeSnippet-Studio/yellow"
+    "theme_author": "Rokon",
+    "theme_documentation_url": "https://github.com/m-rokon/shopify-theme-boilerplate",
+    "theme_support_url": "hhttps://github.com/m-rokon/shopify-theme-boilerplate"
   }
 ]
