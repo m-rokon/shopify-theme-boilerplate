@@ -1,6 +1,6 @@
 <p align="center">
 
-# :wave: Shopify Theme Boilerplate :wave:
+# :wave: Shopify Boilerplate Theme for Online Store 2.0 :wave:
 
 [![Initial Release](https://img.shields.io/badge/release-1.0-green)](https://shields.io/)
 
