@@ -34,16 +34,22 @@ npx tailwindcss init --postcss
 
 ### # Configure your template paths
 
-Add the paths to all of your template files in your `tailwind.config.js` file.
+Add the paths to all of your template files in your `tailwind.config.js` file. So, according to this project the code will look like below :point_down:
 
-```diff
+```sh
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./layout/*.liquid",
+    "./sections/*.liquid",
+    "./snippets/*.liquid",
+    "./assets/*.js"
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
+
 ```
 
 ### # Add the Tailwind directives to your CSS
