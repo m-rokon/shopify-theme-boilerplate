@@ -1,4 +1,4 @@
-<h1 align="center" style="font-size: 48px; border-bottom: 0"> Shopify Boilerplate Theme for Online Store 2.0 <img src="https://c.tenor.com/Wx9IEmZZXSoAAAAi/hi.gif" width="40" height="40" alt="hi" /> </h1>
+<h1 align="center" style="font-size: 48px; border: none"> Shopify Boilerplate Theme for Online Store 2.0 <img src="https://c.tenor.com/Wx9IEmZZXSoAAAAi/hi.gif" width="40" height="40" alt="hi" /> </h1>
 
 <p align="center"> <img src="https://img.shields.io/badge/release-1.0-green" alt="release badge" /> </p>
 
