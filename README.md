@@ -36,7 +36,7 @@ npx tailwindcss init --postcss
 
 Add the paths to all of your template files in your `tailwind.config.js` file. So, according to this project the code will look like below :point_down:
 
-```sh
+```
 module.exports = {
   content: [
     "./layout/*.liquid",
@@ -56,7 +56,7 @@ module.exports = {
 
 Now let's create a folder and name it `src` or whatever you like to name it. Then, create `tailwind.css` stylesheet and place these code in the css file.
 
-```sh
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
