@@ -1,4 +1,4 @@
-<h1 align="center" id="top_heading"><font size="+4"> Shopify Boilerplate Theme for Online Store 2.0 </font> <img src="https://c.tenor.com/GNNzkglY_LYAAAAi/shopping-happy.gif" width="70" height="" alt="hi" /> </h1>
+<h1 align="center">Shopify Boilerplate Theme for Online Store 2.0 <img src="https://c.tenor.com/GNNzkglY_LYAAAAi/shopping-happy.gif" width="70" height="" alt="hi" /> </h1>
 
 
 <p align="center"> <img src="https://img.shields.io/badge/release-1.0-green" alt="release badge" /> </p>
@@ -23,11 +23,13 @@ Boilerplate is now cloned in your machine. Play with it, build your theme and en
 
 Let's install **_tailwindCSS_** in this project. At first let's init the `package.json`. Paste the code in your terminal `npm init -y`. 
 
+After that, let's install TailwindCSS in this project.
+
 ```sh
 npm install -D tailwindcss postcss autoprefixer
 ```
 
-Now, let's create the tailwind `config` file using terminal. It will also create the `postcss` config file, so you don't have to create it manuallay and place `autoprefixer` and `tailwindcss` plugins.
+Now, let's create the `tailwind.config.js` file using terminal. It will also create the `postcss.config.js` file, so you don't have to create it manuallay and place `autoprefixer` and `tailwindcss` plugins.
 
 ```sh
 npx tailwindcss init --postcss
@@ -69,7 +71,7 @@ Now let's create a folder and name it `src` or whatever you like to name it. The
 npx tailwindcss -i ./src/tailwind.css -o ./assets/tailwind.css --watch
 ```
 
-Finally, addd the newly build tailwindcss to your `theme.liquid` file. You will find the file in your `layout` directory.
+Finally, add the newly build tailwindcss to your `theme.liquid` file. You will find the file in your `layout` directory.
 
 So, you are done setting up the Shopify theme project with TailwindCSS. Let's dive into the code and build an amazing theme. Enjoy :tada: :love_you_gesture: 
 
